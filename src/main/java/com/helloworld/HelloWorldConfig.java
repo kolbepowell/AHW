@@ -1,11 +1,12 @@
-package com.example;
+//package com.example;
+package net.runelite.client.plugins.helloworld.src.main.java.com.helloworld;
 
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
 @ConfigGroup("example")
-public interface ExampleConfig extends Config
+public interface HelloWorldConfig extends Config
 {
 	@ConfigItem(
 		keyName = "greeting",
